@@ -13,11 +13,11 @@ function App() {
       </GridItem>
       {/*show above lg renders the aside component only when the screen size is larger than  or equal to lg */}
       <Show above="lg">
-        <GridItem bg="papayawhip" gridArea="aside">
+        <GridItem  gridArea="aside">
           aside
         </GridItem>
       </Show>
-      <GridItem bg="lightgray" gridArea="main">
+      <GridItem  gridArea="main">
         main
       </GridItem>
     </Grid>
