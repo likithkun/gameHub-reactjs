@@ -8,7 +8,7 @@ function App() {
       base: `"nav"" main"`,
       lg : `"nav nav" "aside main"`
     }}>
-      <GridItem gridArea="nav">
+      <GridItem  gridArea="nav">
         <NavBar />
       </GridItem>
       {/*show above lg renders the aside component only when the screen size is larger than  or equal to lg */}
